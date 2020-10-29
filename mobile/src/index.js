@@ -17,9 +17,7 @@ export default function App() {
             title: `Novo projeto ${Date.now()}`,
             owner: 'Kleiton Marques'
         })
-
         const project = response.data
-
         setProjects([ ...projects, project])
     }
 
